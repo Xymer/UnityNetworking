@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] LayerMask clickableMask;
     [SerializeField] NavMeshAgent playerAgent = null;
     [SerializeField] Camera playerCamera = null;
+
+    private BoxCollider collider = null;
     private void Awake()
     {
         if (!playerAgent)
@@ -17,6 +19,10 @@ public class PlayerController : MonoBehaviour
         if (!playerCamera)
         {
             playerCamera = GetComponentInChildren<Camera>();
+        }
+        if (!collider)
+        {
+            collider = GetComponentInChildren<BoxCollider>();
         }
     }
     private void FixedUpdate()
@@ -40,7 +46,8 @@ public class PlayerController : MonoBehaviour
             RaycastHit mouseClickHit;
             if (Physics.Raycast(mouseClickRay, out mouseClickHit, 100,clickableMask))
             {
-                Vector3 positionToGoTo = mouseClickHit.point;
+                Vector3 positionToGoTo = mouseClickHit.point;   
+                
                 ClientSend.PlayerMovement(inputs, positionToGoTo);
             }
         }
@@ -48,7 +55,13 @@ public class PlayerController : MonoBehaviour
         {
             ClientSend.PlayerMovement(inputs);
         }
-       
+
     }
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+        {
+        ClientSend.StopMoving();
+        }
+    }
 }

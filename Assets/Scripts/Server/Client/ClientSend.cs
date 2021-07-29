@@ -36,6 +36,7 @@ public class ClientSend : MonoBehaviour
             {
                 packet.Write(input);
             }
+            packet.Write(GameManager.players[Client.instance.myID].transform.position);
             packet.Write(GameManager.players[Client.instance.myID].transform.rotation);
 
             SendUDPData(packet);
@@ -50,15 +51,20 @@ public class ClientSend : MonoBehaviour
             {
                 packet.Write(input);
             }
-            if (inputs[4])
-            {
                 packet.Write(positionToGoTo);
-            }
-            packet.Write(GameManager.players[Client.instance.myID].transform.rotation);
+                packet.Write(GameManager.players[Client.instance.myID].transform.rotation);
 
             SendUDPData(packet);
         }
     }
 
+    public static void StopMoving(bool stopMoving = true)
+    {
+        using (Packet packet = new Packet((int)ClientPackets.playerStopMovement))
+        {
+            packet.Write(stopMoving);
+            SendTCPData(packet);
+        }
+    }
     #endregion
 }
