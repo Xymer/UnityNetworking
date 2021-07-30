@@ -1,0 +1,15 @@
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.exe
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.deps.json
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.runtimeconfig.json
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.runtimeconfig.dev.json
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.dll
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\ref\GameServer.dll
+G:\FutureGames\UnityNetworking\GameServer\GameServer\bin\Debugg\net5.0\GameServer.pdb
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.GeneratedMSBuildEditorConfig.editorconfig
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.AssemblyInfoInputs.cache
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.AssemblyInfo.cs
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.csproj.CoreCompileInputs.cache
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.dll
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\ref\GameServer.dll
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.pdb
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debugg\net5.0\GameServer.genruntimeconfig.cache

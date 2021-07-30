@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GameServer.Users;
 using System.Net;
 using System.Net.Sockets;
 
@@ -19,10 +20,11 @@ namespace GameServer
 
         private static TcpListener tcpListener;
         private static UdpClient udpListener;
-
+        public static UserHandler userHandler;
         public static void Start(int _maxPLayers, int _port)
         {
             serverRunning = true;
+            userHandler = new UserHandler();
             MaxPlayers = _maxPLayers;
             Port = _port;
 
@@ -123,6 +125,8 @@ namespace GameServer
             {
                 {(int)ClientPackets.welcomeReceived, ServerHandle.WelcomeReceived },
                 {(int)ClientPackets.playerMovement, ServerHandle.PlayerMovement},
+                {(int)ClientPackets.playerStopMovement, ServerHandle.PlayerStopMovement},
+                
             };
             Console.WriteLine("Initalized packets");
         }

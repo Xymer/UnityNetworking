@@ -13,3 +13,4 @@ G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debug2\net5.0\GameServe
 G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debug2\net5.0\ref\GameServer.dll
 G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debug2\net5.0\GameServer.pdb
 G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debug2\net5.0\GameServer.genruntimeconfig.cache
+G:\FutureGames\UnityNetworking\GameServer\GameServer\obj\Debug2\net5.0\GameServer.csprojAssemblyReference.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj": {}
+    "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj": {}
   },
   "projects": {
-    "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj": {
+    "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
+        "projectUniqueName": "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj",
         "projectName": "GameServer",
-        "projectPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
+        "projectPath": "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\obj\\",
+        "outputPath": "G:\\FutureGames\\UnityNetworking\\GameServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

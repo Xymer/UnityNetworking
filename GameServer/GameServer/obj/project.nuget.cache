@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6oRWPhmUj0nYDSlAFh85J8hUP1WQcJOK/mkXC1aOMQN+AS5eBGreQ9bqItzdl5cj+iXSrRqWdszTMW+ljVEYrg==",
+  "success": true,
+  "projectFilePath": "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer\\GameServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

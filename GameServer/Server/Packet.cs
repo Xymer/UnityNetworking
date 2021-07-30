@@ -20,6 +20,7 @@ namespace GameServer
     {
         welcomeReceived = 1,
         playerMovement,
+        playerStopMovement,
     }
 
     public class Packet : IDisposable
