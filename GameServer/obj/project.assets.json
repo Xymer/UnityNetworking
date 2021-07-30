@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj",
+      "projectUniqueName": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
       "projectName": "GameServer",
-      "projectPath": "G:\\FutureGames\\UnityNetworking\\GameServer\\GameServer.csproj",
+      "projectPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
       "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "G:\\FutureGames\\UnityNetworking\\GameServer\\obj\\",
+      "outputPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
