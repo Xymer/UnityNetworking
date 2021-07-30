@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BQBKpTNXwlSSlEkw4zFO+rRKi2gLhhR38kAnc4iuZW5BLxKIaqnylGQHL6uRMntMCUXsf91i9+ooJUK0Yu8veQ==",
+  "success": true,
+  "projectFilePath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

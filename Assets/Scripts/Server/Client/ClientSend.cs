@@ -22,6 +22,7 @@ public class ClientSend : MonoBehaviour
         {
             packet.Write(Client.instance.myID);
             packet.Write(UIManager.instance.usernameField.text);
+            packet.Write(UIManager.instance.passwordField.text);
             SendTCPData(packet);
             SendUDPData(packet);
         }
