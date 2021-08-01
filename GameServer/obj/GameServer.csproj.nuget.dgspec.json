@@ -1,34 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj": {}
+    "C:\\Users\\sebas\\Desktop\\UnityNetworking\\GameServer\\GameServer.csproj": {}
   },
   "projects": {
-    "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj": {
+    "C:\\Users\\sebas\\Desktop\\UnityNetworking\\GameServer\\GameServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\UnityNetworking\\GameServer\\GameServer.csproj",
         "projectName": "GameServer",
-        "projectPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\GameServer.csproj",
+        "projectPath": "C:\\Users\\sebas\\Desktop\\UnityNetworking\\GameServer\\GameServer.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "G:\\Spelprojekt\\UnityNetworking\\GameServer\\obj\\",
+        "outputPath": "C:\\Users\\sebas\\Desktop\\UnityNetworking\\GameServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
