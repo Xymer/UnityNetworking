@@ -45,3 +45,4 @@ C:\Users\sebas\Desktop\UnityNetworking\GameServer\obj\Debug\net5.0\GameServer.dl
 C:\Users\sebas\Desktop\UnityNetworking\GameServer\obj\Debug\net5.0\ref\GameServer.dll
 C:\Users\sebas\Desktop\UnityNetworking\GameServer\obj\Debug\net5.0\GameServer.pdb
 C:\Users\sebas\Desktop\UnityNetworking\GameServer\obj\Debug\net5.0\GameServer.genruntimeconfig.cache
+C:\Users\sebas\Desktop\UnityNetworking\GameServer\obj\Debug\net5.0\GameServer.csproj.AssemblyReference.cache

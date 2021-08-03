@@ -18,7 +18,7 @@ namespace GameServer
         public FileHandler(string path)
         {
 
-            fileUserStream = File.Open(path, FileMode.Open);
+            fileUserStream = File.Open(path, FileMode.OpenOrCreate);
 
 
             streamUserWriter = new StreamWriter(fileUserStream);

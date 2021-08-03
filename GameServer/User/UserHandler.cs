@@ -8,7 +8,7 @@ namespace GameServer.Users
 {
     class UserHandler
     {
-        private FileHandler fileHandler = new FileHandler("../Files/Users.txt");
+        private FileHandler fileHandler = new FileHandler("../Files/User.txt");
         Dictionary<string, string> userValuePair = new Dictionary<string, string>();
         public UserHandler()
         {
