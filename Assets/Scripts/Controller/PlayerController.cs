@@ -46,8 +46,9 @@ public class PlayerController : MonoBehaviour
             RaycastHit mouseClickHit;
             if (Physics.Raycast(mouseClickRay, out mouseClickHit, 100,clickableMask))
             {
-                Vector3 positionToGoTo = mouseClickHit.point;   
+                Vector3 positionToGoTo = mouseClickHit.point;
                 
+                playerAgent.transform.LookAt(positionToGoTo);
                 ClientSend.PlayerMovement(inputs, positionToGoTo);
             }
         }
